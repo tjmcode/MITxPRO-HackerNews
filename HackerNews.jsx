@@ -293,8 +293,8 @@ const useDataApi = (initialUrl, initialData) =>
 
 // #region  R E A C T   E X E C U T I O N
 
-// "Account" is the PARENT React Component, rendering it creates the control elements of the UI
-// which are linked to event handlers.
+// "HackerNews" is the PARENT React Component, rendering it creates the control elements of the UI
+// which are linked to event handlers and fetches the initial data.
 ReactDOM.render(<HackerNews />, document.getElementById("root"));
 
 // #endregion
